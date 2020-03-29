@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ships of Battle</string>
+
+    <!-- StartingMenu -->
+    <string name="new_game_button">NEW GAME</string>
+    <string name="credits_button">CREDITS</string>
+
+    <!-- Host -->
+    <string name="server_button">SERVER</string>
+    <string name="client_button">CLIENT</string>
+
+    <!-- Client -->
+    <string name="address_text">192.168.</string>
+    <string name="connect_button">CONNECT</string>
+    <string name="state_view">Not Initialized</string>
+    <string name="ready_button">READY</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:orientation="vertical"
+              tools:context=".Client" android:gravity="center">
+
+    <EditText
+            android:id="@+id/address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address_text"
+            android:hint="dstAddress" android:textAlignment="center"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    <Button
+            android:id="@+id/connect_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_button"/>
+    <TextView
+            android:id="@+id/state_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/state_view"
+            android:textSize="20dp" android:textAlignment="center"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    <TextView
+            android:id="@+id/received_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    <Button
+            android:text="@string/ready_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/ready_button"/>
+</LinearLayout>
