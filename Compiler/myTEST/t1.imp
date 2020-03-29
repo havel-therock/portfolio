@@ -1,0 +1,19 @@
+DECLARE
+	a, c
+BEGIN
+	a ASSIGN 999999999;
+	FOR i FROM 9 DOWNTO 0 DO
+		FOR j FROM 0 TO i DO
+			FOR k FROM 0 TO j DO
+				[a  ASSIGN  a PLUS k;]
+				WRITE k;
+				WRITE j;
+				c  ASSIGN  k TIMES j;
+				WRITE c;
+				[c  ASSIGN  c PLUS i;
+				b  ASSIGN  b PLUS c;]
+				WRITE a;
+			ENDFOR
+		ENDFOR
+	ENDFOR
+END

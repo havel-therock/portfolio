@@ -1,0 +1,19 @@
+DECLARE
+	a, b
+BEGIN
+	a ASSIGN 10;
+	b ASSIGN -5;
+	[FOR i FROM a TO b DO
+		WRITE i;
+		WRITE b;
+        b ASSIGN b PLUS 1;
+	ENDFOR]
+	FOR i FROM a DOWNTO b DO
+		WRITE i;
+		WRITE b;
+        b ASSIGN b MINUS 1;
+	ENDFOR
+	WRITE b;
+[ possible endless loop when range is modyfied]
+	
+END

@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Opis problemu}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Uwaga techniczna}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Eliminacja Gaussa}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Macierze \233atwo obliczalne}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Rozk\233ad macierzy}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Rozk\233ad LU}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Zastosowane modyfikacje}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Modyfikacje eliminacji Gausa bez wyboru}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Modyfikacje eliminacji Gaussa z wyborem elementu g\233\363wnego}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Modyfikacje rozk\233adu LU z wyborem i bez}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Modyfikacje rozwiazywania LU z wyborem i bez}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{Notka}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Wyniki eksperyment\363w}{}% 13
+\BOOKMARK [1][-]{section.5}{Wnioski}{}% 14

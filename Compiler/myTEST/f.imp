@@ -1,0 +1,12 @@
+DECLARE
+	a, b, c
+BEGIN
+	WHILE 0 EQ 0 DO
+	READ a;
+	READ b;
+	c ASSIGN a DIV b;
+    WRITE c;
+	c ASSIGN a MOD b;
+    WRITE c;
+	ENDWHILE
+END

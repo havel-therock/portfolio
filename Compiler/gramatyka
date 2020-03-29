@@ -1,0 +1,42 @@
+
+1  program        -> DECLARE  declarations  BEGIN  commands  END
+2                   | BEGIN  commands  END
+3
+4  declarations  -> declarations , pidentifier
+5                   | declarations , pidentifier(num:num)
+6                   | pidentifier
+7                   | pidentifier(num:num)
+8
+9  commands       -> commands  command
+10                   | command
+11
+12  command        -> identifier  ASSIGN  expression;
+13                   | IF  condition  THEN  commands  ELSE  commands  ENDIF
+14                   | IF  condition  THEN  commands  ENDIF
+15                   | WHILE  condition  DO  commands  ENDWHILE
+16                   | DO  commands  WHILE  condition  ENDDO
+17                   | FOR  pidentifier  FROM  value TO  value DO  commands  ENDFOR
+18                   | FOR  pidentifier  FROM  value  DOWNTO  value DO  commands  ENDFOR
+19                   | READ  identifier;
+20                   | WRITE  value;
+21
+22  expression     -> value
+23                   | value  PLUS  value
+24                   | value  MINUS  value
+25                   | value  TIMES  value
+26                   | value  DIV  value
+27                   | value  MOD  value
+28
+29  condition      -> value EQ  value
+30                   | value  NEQ  value
+31                   | value LE  value
+32                   | value GE  value
+33                   | value  LEQ  value
+34                   | value  GEQ  value
+35
+36  value           -> num
+37                   | identifier
+38
+39  identifier     -> pidentifier
+40                   | pidentifier(pidentifier)
+41                   | pidentifier(num)
