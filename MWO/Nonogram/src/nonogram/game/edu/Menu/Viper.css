@@ -1,0 +1,36 @@
+.root{
+    -fx-background-image: url("image2.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-font-size:10pt;
+    -fx-background-size:cover;
+    -fx-background-position: center center;
+    -fx-overflow-y: hidden ! important;
+    -fx-overflow-x: hidden ! important;
+    -fx-background-size: cover;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+
+
+}
+
+.button{
+    -fx-font-weight:bold;
+    -fx-background-color: #2196f3;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-pref-width: 215px;
+    -fx-pref-height: 65px;
+
+
+}
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size:16;
+    -fx-border-radius: 20;
+    -fx-text-fill: #2196f3;
+    -fx-border-width: 3;
+
+}
