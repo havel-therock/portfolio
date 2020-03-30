@@ -1,4 +1,4 @@
-Each folder contains different project of games.
+Each folder contains different game project.
 
 Finished, but need polishing:
 *Snek
